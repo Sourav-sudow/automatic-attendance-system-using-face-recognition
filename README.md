@@ -1,8 +1,9 @@
-📷 Face Recognition-Based Smart Attendance System
-🚀 Overview
+# 📷 Face Recognition-Based Smart Attendance System
+
+## 🚀 Overview
 This project is an AI-powered attendance system that leverages Face Recognition technology to automate the process of marking attendance. The system captures live video feed, detects faces, recognizes registered individuals, and logs attendance automatically. It is designed to enhance accuracy, security, and efficiency in attendance management for workplaces, institutions, and events.
 
-🎯 Features
+## 🎯 Features
 ✅ Face Detection & Recognition – Uses OpenCV and a trained model for recognizing faces.
 📸 Live Camera Feed – Captures video feed in real-time for face recognition.
 📂 Attendance Logging – Stores attendance data in CSV format with timestamps.
@@ -11,7 +12,7 @@ This project is an AI-powered attendance system that leverages Face Recognition 
 📊 GUI Overlay – Displays real-time attendance details with an interactive interface.
 🔐 Secure & Efficient – Prevents proxy attendance by ensuring unique face matches.
 
-🏗️ Tech Stack
+## 🏗️ Tech Stack
 🔹 Python – Core development language
 🔹 OpenCV – Image processing & face detection
 🔹 NumPy – Efficient numerical operations
@@ -19,8 +20,9 @@ This project is an AI-powered attendance system that leverages Face Recognition 
 🔹 Pyttsx3 – Text-to-speech for voice alerts
 🔹 CSV – Data storage for attendance logs
 
-📦 Installation
+## 📦 Installation
 Clone the repository and install dependencies:
+<img width="735" alt="Screenshot 2025-02-18 at 7 55 38 PM" src="https://github.com/user-attachments/assets/947ce85d-a1e6-409b-8847-60b583a05bd2" />
 
 bash
 Copy
@@ -35,29 +37,18 @@ bash
 Copy
 Edit
 python test.py
-📸 Screenshots
+
+## 📸 Screenshots
 ![1](https://github.com/user-attachments/assets/32b3a866-792c-499d-9b38-dc9ff9bb2090)
 ![2](https://github.com/user-attachments/assets/3d0a79af-4f01-4bd4-a74c-899cb734f4bf)
 ![3](https://github.com/user-attachments/assets/c4663915-4e14-4844-acb2-7f38429b9eb5)
 ![4](https://github.com/user-attachments/assets/b1d767fc-5877-47aa-8627-e41d25eff43b)
 
 
-📑 File Structure
-graphql
-Copy
-Edit
-├── Attendance/             # Stores attendance CSV files  
-├── data/                   # Contains face recognition models & background image  
-│   ├── faces_data.pkl      # Stored face encodings  
-│   ├── haarcascade_frontalface_default.xml  # Face detection model  
-│   ├── background img.png  # UI background image  
-├── static/                 # Stores captured images  
-├── app_faces.py            # Face recognition module  
-├── attendance_app.py       # Attendance management module  
-├── test.py                 # Main execution file  
-├── README.md               # Documentation (this file)  
-├── requirements.txt        # Required dependencies  
-🏆 How It Works
+## 📑 File Structure
+<img width="735" alt="Screenshot 2025-02-18 at 7 56 55 PM" src="https://github.com/user-attachments/assets/0c47de3c-15fd-4d3a-9661-5646580c6071" />
+
+## 🏆 How It Works
 Start the system – Runs the live webcam feed.
 Face Detection & Recognition – Identifies faces from the feed.
 Mark Attendance – If a recognized face is detected, attendance is logged.
@@ -70,9 +61,9 @@ CSV Logging – Attendance details (Name, Roll No, Time, and Photo) are saved.
 📊 Analytics & Reports – Advanced statistics on attendance trends.
 🔐 Database Integration – Storing data in a relational database (SQL).
 
-🤝 Contributing
+## 🤝 Contributing
 Contributions are welcome! Feel free to fork this repository, create a new branch, and submit a pull request.
 
-🔗 License
+## 🔗 License
 MIT License – Free to use and modify.
 
